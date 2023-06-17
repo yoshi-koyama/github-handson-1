@@ -1,6 +1,6 @@
 public class Band {
     //メンバ変数(属性)
-    private String name;
+    private final String name;
     private final int member;
     public static int counter = 0;
 
