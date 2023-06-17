@@ -1,20 +1,10 @@
 public class Band {
     //メンバ変数(属性)
     private String name;
-    private int member;
+    private final int member;
     public static int counter = 0;
-//    private int member;
-//    private String music;
-
-    public Band(int member) {
-        this.member = member;
-    }
 
     //メソッド　戻り値の型 + メソッド(引数リスト){
-    public void Band(String name) {
-        this.name = name;
-        counter++;
-    }
     public Band(String name,int member) {
         this.name = name;
         this.member = member;
