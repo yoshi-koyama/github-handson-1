@@ -1,6 +1,6 @@
 public class Band {
     //メンバ変数(属性)
-    private String name;
+    private final String name;
     private final int member;
     public static int counter = 0;
 
@@ -14,6 +14,7 @@ public class Band {
     public String getName(){
         return name;
     }
+
     public int member(){
         if(member >0) {
             System.out.println(member + "人組のバンドです");
@@ -23,6 +24,7 @@ public class Band {
             return member;
         }
     }
+
     public static void live(){
         System.out.println(counter + "バンド目は");
     }
